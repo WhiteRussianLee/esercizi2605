@@ -1,3 +1,4 @@
 alert ('il mio primo alert')
 console.log('Con le mani ciao ciao')
-prompt('inserisci il tuo nome')
+let nome = prompt('inserisci il tuo nome')
+console.log('Ciao ' + nome + ', benvenuto nel mio sito!');
